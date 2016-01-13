@@ -23,7 +23,7 @@ sphinx.  To generate the documentation:
 3. Open *doc/_build/sphinx_test/doc/_build/html/index.html* in your browser
 
 Note that all of the "Module level" doucumentation is rendered
-correctly.  However the last pair of instance/class document
-simply repeats the class's docstring and does not document the
+correctly.  However the last pair of "Submodule level" instance/class 
+documentation simply repeats the class's docstring and does not document the
 attributes.  This is apparently related to the import of
-*do_thing/break_stuff.py* from *module/submodule/imports_break_stuff.py*.  
+*do_thing/break_stuff.py* from *module/submodule/imports_break_stuff.py*.
